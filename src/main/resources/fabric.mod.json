@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "coin-mod",
+	"version": "${version}",
+	"name": "Coin Mod",
+	"description": "A Simple coin mod for use as a better currency.",
+	"authors": [
+		"Felix Gallé"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/coin-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.felix.coinmod.CoinMod"
+		],
+		"client": [
+			"net.felix.coinmod.CoinModClient"
+		],
+		"fabric-datagen": [
+			"net.felix.coinmod.CoinModDataGenerator"
+		]
+	},
+	"mixins": [
+		"coin-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
