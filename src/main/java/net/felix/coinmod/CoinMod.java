@@ -11,7 +11,6 @@ public class CoinMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-
-
+		//This is a test
 	}
 }
