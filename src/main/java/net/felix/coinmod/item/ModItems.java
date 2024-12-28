@@ -12,10 +12,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item COIN_FRAGEMENT = registerItem("coin_fragment", new Item(new Fabric));
+    public static final Item COIN_FRAGMENT = registerItem("coin_fragment", new Item(new Fabric));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(COIN_FRAGEMENT);
+        entries.add(COIN_FRAGMENT);
     }
 
     private static Item registerItem(String name, Item item) {
