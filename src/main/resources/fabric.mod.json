@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "coin-mod",
+	"id": "coinmod",
 	"version": "${version}",
 	"name": "Coin Mod",
 	"description": "A Simple coin mod for use as a better currency.",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/coin-mod/icon.png",
+	"icon": "assets/coinmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"coin-mod.mixins.json"
+		"coinmod.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
