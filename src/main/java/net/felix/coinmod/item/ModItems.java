@@ -13,9 +13,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item COIN_FRAGMENT = registerItem("coin_fragment", new Item(new Item.Settings()));
+    public static final Item COIN = registerItem("coin", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(COIN_FRAGMENT);
+        entries.add(COIN);
     }
 
     private static Item registerItem(String name, Item item) {
