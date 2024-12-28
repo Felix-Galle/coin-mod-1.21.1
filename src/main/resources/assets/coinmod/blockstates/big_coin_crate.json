@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "coinmod:block/big_coin_crate"
+    }
+  }
+}

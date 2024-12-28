@@ -1,6 +1,7 @@
 package net.felix.coinmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.felix.coinmod.block.ModBlocks;
 import net.felix.coinmod.item.ModItemGroups;
 import net.felix.coinmod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,7 @@ public class CoinMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		//This is a test
 	}
 }

@@ -3,5 +3,8 @@
   "item.coinmod.gold_coin": "Coin",
   "item.coinmod.crushed_amethyst": "Crushed_amethyst",
 
-  "itemgroup.gold_coin": "Coin Mod group"
+  "block.coinmoc.big_coin_crate": "Big coin crate",
+
+  "itemgroup.gold_coin": "Coin Mod group",
+
 }

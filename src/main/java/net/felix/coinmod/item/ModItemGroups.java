@@ -2,6 +2,7 @@ package net.felix.coinmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.felix.coinmod.CoinMod;
+import net.felix.coinmod.block.ModBlocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -18,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.COIN_FRAGMENT);
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.CRUSHED_AMETHYST);
+                        entries.add(ModBlocks.BIG_COIN_CRATE);
                     }).build());
 
     public static void registerItemGroups() {

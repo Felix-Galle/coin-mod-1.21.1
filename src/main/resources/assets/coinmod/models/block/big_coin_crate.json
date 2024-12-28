@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "side": "coinmod:block/crate_bottom.png",
+    "bottom": "coinmod:block/crate_side.png",
+    "top": "coinmod:block/crate_top2.png"
+  }
+}
