@@ -14,11 +14,13 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item COIN_FRAGMENT = registerItem("coin_fragment", new Item(new Item.Settings()));
     public static final Item GOLD_COIN = registerItem("gold_coin", new Item(new Item.Settings()));
+    public static final Item BIG_GOLD_COIN = registerItem("big_gold_coin", new Item(new Item.Settings()));
     public static final Item CRUSHED_AMETHYST = registerItem("crushed_amethyst", new Item(new Item.Settings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(COIN_FRAGMENT);
         entries.add(GOLD_COIN);
+        entries.add(BIG_GOLD_COIN);
         entries.add(CRUSHED_AMETHYST);
     }
 

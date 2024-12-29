@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "A": {
+      "item": "coinmod:crushed_amethyst"
+    },
+    "R": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "NA",
+    "RN"
+  ],
+  "result": {
+    "id": "coinmod:gold_coin",
+    "count": 1
+  }
+}

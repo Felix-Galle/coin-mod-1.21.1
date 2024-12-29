@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "pattern": [
-    "NFN",
-    "FRF",
-    "NFN"
-  ],
   "key": {
     "N": {
       "item": "minecraft:gold_nugget"
@@ -17,8 +12,13 @@
       "item": "minecraft:raw_gold"
     }
   },
+  "pattern": [
+    "NFN",
+    "FRF",
+    "NFN"
+  ],
   "result": {
     "id": "coinmod:gold_coin",
-    "count": 4
+    "count": 1
   }
 }
