@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BIG_GOLD_COIN);
                         entries.add(ModItems.CRUSHED_AMETHYST);
                         entries.add(ModBlocks.BIG_COIN_CRATE);
+                        entries.add(ModItems.SMALL_PILE_BIG_GOLD_COIN);
                     }).build());
 
     public static void registerItemGroups() {

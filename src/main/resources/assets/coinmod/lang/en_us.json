@@ -1,11 +1,21 @@
 {
   "item.coinmod.coin_fragment": "Coin Fragment",
-  "item.coinmod.gold_coin": "Gold Coin",
+  "item.coinmod.gold_coin": "Quartin Coin",
   "item.coinmod.big_gold_coin": "Ducan Coin",
   "item.coinmod.crushed_amethyst": "Desicated Amethyst",
+  "item.coinmod.small_pile_big_gold_coin": "Small Pile of Ducan",
 
-  "block.coinmod.big_coin_crate": "Big Coin Crate",
+  "block.coinmod.big_coin_crate": "§eBig Coin Crate",
 
-  "itemgroup.big_gold_coin": "Coin Mod group"
+  "itemgroup.big_gold_coin": "Coin Mod group",
 
+  "tooltip.coinmod.general_tip.tooltip.1": "Press §7(§eShift§7)§r to view coin equivalents",
+  "tooltip.coinmod.big_gold_coin.tooltip.1": "Worth: 4 Quartin",
+  "tooltip.coinmod.gold_coin.tooltip.1": "Worth: 0.25 Ducan",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.1": "Worth: 4 Ducan",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.2": "Worth: 16 Quartin",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.1": "Worth: 8 Ducan",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.2": "Worth: 32 Quartin",
+  "tooltip.coimod.heap_big_gold_coin.tooltip.1": "Worth: 16 Ducan",
+  "tooltip.coinmod.heap_big_gold_coin.tooltip.2": "Worth: 96 Quartin"
 }

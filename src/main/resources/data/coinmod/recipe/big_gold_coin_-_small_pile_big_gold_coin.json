@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "coinmod:small_pile_big_gold_coin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "coinmod:big_gold_coin"
+  }
+}
