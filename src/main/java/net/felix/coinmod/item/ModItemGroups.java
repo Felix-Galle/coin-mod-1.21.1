@@ -13,8 +13,10 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups {
     public static final ItemGroup COIN_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CoinMod.MOD_ID, "big_gold_coin"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.big_gold_coin"))
-                    .icon(() -> new ItemStack(ModItems.GOLD_COIN)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.big_gold_coin"))
+                    .icon(() -> new ItemStack(ModItems.BIG_GOLD_COIN))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModItems.COIN_FRAGMENT);
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.BIG_GOLD_COIN);
