@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_bottom_top",
+  "parent": "block/cube_bottom_top",
   "textures": {
     "side": "coinmod:block/crate_bottom.png",
     "bottom": "coinmod:block/crate_side.png",

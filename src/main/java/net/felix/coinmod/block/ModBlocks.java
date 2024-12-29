@@ -14,8 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block BIG_COIN_CRATE = registerBlock("big_coin_crate",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
+    public static final Block BIG_COIN_CRATE = registerBlock("big_coin_crate", new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
