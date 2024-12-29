@@ -10,12 +10,12 @@
   "itemgroup.big_gold_coin": "Coin Mod group",
 
   "tooltip.coinmod.general_tip.tooltip.1": "Press §7(§eShift§7)§r to view coin equivalents",
-  "tooltip.coinmod.big_gold_coin.tooltip.1": "Worth: 4 Quartin",
-  "tooltip.coinmod.gold_coin.tooltip.1": "Worth: 0.25 Ducan",
-  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.1": "Worth: 4 Ducan",
-  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.2": "Worth: 16 Quartin",
-  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.1": "Worth: 8 Ducan",
-  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.2": "Worth: 32 Quartin",
-  "tooltip.coimod.heap_big_gold_coin.tooltip.1": "Worth: 16 Ducan",
-  "tooltip.coinmod.heap_big_gold_coin.tooltip.2": "Worth: 96 Quartin"
+  "tooltip.coinmod.big_gold_coin.tooltip.1": "Worth:§6 4 Quartin",
+  "tooltip.coinmod.gold_coin.tooltip.1": "Worth:§6 0.25 Ducan",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.1": "Worth:§6 4 Ducan",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.2": "Worth:§6 16 Quartin",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.1": "Worth:§6 8 Ducan",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.2": "Worth:§6 32 Quartin",
+  "tooltip.coimod.heap_big_gold_coin.tooltip.1": "Worth:§6 16 Ducan",
+  "tooltip.coinmod.heap_big_gold_coin.tooltip.2": "Worth:§6 96 Quartin"
 }
