@@ -4,10 +4,13 @@
   "ingredients": [
     {
       "item": "coinmod:small_pile_big_gold_coin"
+    },
+    {
+      "item": "coinmod:small_pile_big_gold_coin"
     }
   ],
   "result": {
-    "count": 4,
-    "id": "coinmod:big_gold_coin"
+    "count": 1,
+    "id": "coinmod:big_pile_big_gold_coin"
   }
 }

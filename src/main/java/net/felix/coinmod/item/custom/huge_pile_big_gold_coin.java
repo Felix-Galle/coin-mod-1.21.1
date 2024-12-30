@@ -8,14 +8,19 @@ import net.minecraft.text.Text;
 
 import java.util.List;
 
-public class coin_fragment extends Item {
-    public coin_fragment(Settings settings) {
+public class huge_pile_big_gold_coin extends Item {
+    public huge_pile_big_gold_coin(Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("tooltip.coinmod.coin_fragment.tooltip.1"));
+        if(Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("tooltip.coinmod.huge_pile_big_gold_coin.tooltip.1"));
+            tooltip.add(Text.translatable("tooltip.coinmod.huge_pile_big_gold_coin.tooltip.2"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.coinmod.general_tip.tooltip.1"));
+        }
         super.appendTooltip(stack, context, tooltip, type);
     }
 }

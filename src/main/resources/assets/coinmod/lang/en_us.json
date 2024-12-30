@@ -2,20 +2,31 @@
   "item.coinmod.coin_fragment": "Coin Fragment",
   "item.coinmod.gold_coin": "Quartin Coin",
   "item.coinmod.big_gold_coin": "Ducan Coin",
-  "item.coinmod.crushed_amethyst": "Desicated Amethyst",
   "item.coinmod.small_pile_big_gold_coin": "Small Pile of Ducan",
+  "item.coinmod.big_pile_big_gold_coin": "Big Pile of Ducan",
+  "item.coinmod.huge_pile_big_gold_coin": "Huge Pile of Ducan",
+  "item.coinmod.bag_huge_pile_big_gold_coin": "Bag of Ducan",
+  "item.coinmod.crushed_amethyst": "Desicated Amethyst",
+
 
   "block.coinmod.big_coin_crate": "§eBig Coin Crate",
 
   "itemgroup.big_gold_coin": "Coin Mod group",
 
-  "tooltip.coinmod.general_tip.tooltip.1": "Press §7(§eShift§7)§r to view coin equivalents",
-  "tooltip.coinmod.big_gold_coin.tooltip.1": "Worth:§6 4 Quartin",
-  "tooltip.coinmod.gold_coin.tooltip.1": "Worth:§6 0.25 Ducan",
-  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.1": "Worth:§6 4 Ducan",
-  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.2": "Worth:§6 16 Quartin",
-  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.1": "Worth:§6 8 Ducan",
-  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.2": "Worth:§6 32 Quartin",
-  "tooltip.coimod.heap_big_gold_coin.tooltip.1": "Worth:§6 16 Ducan",
-  "tooltip.coinmod.heap_big_gold_coin.tooltip.2": "Worth:§6 96 Quartin"
+  "tooltip.coinmod.general_tip.tooltip.1": "§7Press [§eShift§7] to view coin equivalents",
+  "tooltip.coinmod.crushed_amethyst.tooltip.1": "§7Used to craft Coin Fragment",
+  "tooltip.coinmod.crushed_amethyst.tooltip.2": "§7Can be snorted for §d§ltemporary buff",
+  "tooltip.coinmod.coin_fragment.tooltip.1": "§7Used to craft 1 Quartin",
+  "tooltip.coinmod.gold_coin.tooltip.1": "§7Worth:§6 0.25 Ducan",
+  "tooltip.coinmod.big_gold_coin.tooltip.1": "§7Worth:§6 4 Quartin",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.1": "§7Worth:§6 4 Ducan",
+  "tooltip.coinmod.small_pile_big_gold_coin.tooltip.2": "§7Worth:§6 16 Quartin",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.1": "§7Worth:§6 8 Ducan",
+  "tooltip.coinmod.big_pile_big_gold_coin.tooltip.2": "§7Worth:§6 32 Quartin",
+  "tooltip.coinmod.huge_pile_big_gold_coin.tooltip.1": "§7Worth:§6 16 Ducan",
+  "tooltip.coinmod.huge_pile_big_gold_coin.tooltip.2": "§7Worth:§6 96 Quartin",
+  "tooltip.coinmod.bag_huge_pile_big_gold_coin.tooltip.1": "§7Worth:§6 64 Ducan",
+  "tooltip.coinmod.bag_huge_pile_big_gold_coin.tooltip.2": "§7Worth:§6 256 Quartin",
+  "tooltip.coinmod.big_coin_crate.tooltip.1": "§7Worth:§6 256 Ducan",
+  "tooltip.coinmod.big_coin_crate.tooltip.2": "§7Worth:§6 1024 Quartin"
 }

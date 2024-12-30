@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "coinmod:small_pile_big_gold_coin"
+      "item": "coinmod:big_coin_crate"
     }
   ],
   "result": {
     "count": 4,
-    "id": "coinmod:big_gold_coin"
+    "id": "coinmod:bag_huge_pile_big_gold_coin"
   }
 }

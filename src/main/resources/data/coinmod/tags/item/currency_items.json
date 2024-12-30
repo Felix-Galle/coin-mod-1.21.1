@@ -1,0 +1,11 @@
+{
+  "valuses": [
+    "coinmod:gold_coin",
+    "coinmod:big_gold_coin",
+    "coinmod:small_pile_big_gold_coin",
+    "coinmod:big_pile_big_gold_coin",
+    "coinmod:huge_pile_big_gold_coin",
+    "coinmod:bag_huge_pile_big_gold_coin",
+    "coinmod:big_coin_crate"
+  ]
+}

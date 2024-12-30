@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "coinmod:bag_huge_pile_big_gold_coin"
+    },
+    {
+      "item": "coinmod:bag_huge_pile_big_gold_coin"
+    },
+    {
+      "item": "coinmod:bag_huge_pile_big_gold_coin"
+    },
+    {
+      "item": "coinmod:bag_huge_pile_big_gold_coin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "coinmod:big_coin_crate"
+  }
+}

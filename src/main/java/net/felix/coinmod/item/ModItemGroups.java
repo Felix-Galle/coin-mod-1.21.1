@@ -17,12 +17,15 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.big_gold_coin"))
                     .icon(() -> new ItemStack(ModItems.BIG_GOLD_COIN))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.CRUSHED_AMETHYST);
                         entries.add(ModItems.COIN_FRAGMENT);
                         entries.add(ModItems.GOLD_COIN);
                         entries.add(ModItems.BIG_GOLD_COIN);
-                        entries.add(ModItems.CRUSHED_AMETHYST);
-                        entries.add(ModBlocks.BIG_COIN_CRATE);
                         entries.add(ModItems.SMALL_PILE_BIG_GOLD_COIN);
+                        entries.add(ModItems.BIG_PILE_BIG_GOLD_COIN);
+                        entries.add(ModItems.HUGE_PILE_BIG_GOLD_COIN);
+                        entries.add(ModItems.BAG_HUGE_PILE_BIG_GOLD_COIN);
+                        entries.add(ModBlocks.BIG_COIN_CRATE);
                     }).build());
 
     public static void registerItemGroups() {
