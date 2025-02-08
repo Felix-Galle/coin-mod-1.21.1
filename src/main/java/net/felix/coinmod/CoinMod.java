@@ -1,7 +1,7 @@
 package net.felix.coinmod;
 
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
+//import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.felix.coinmod.block.ModBlocks;
 import net.felix.coinmod.item.ModItemGroups;
 import net.felix.coinmod.item.ModItems;
@@ -18,6 +18,6 @@ public class CoinMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
-		FuelRegistry.INSTANCE.add(ModItems.CRUSHED_AMETHYST, 40);
+		//FuelRegistry.INSTANCE.add(ModItems.CRUSHED_AMETHYST, 40);
 	}
 }
