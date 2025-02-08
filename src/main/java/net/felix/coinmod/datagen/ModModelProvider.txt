@@ -1,0 +1,32 @@
+package net.felix.coinmod.datagen;
+
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.felix.coinmod.block.ModBlocks;
+import net.felix.coinmod.item.ModItems;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
+
+public class ModModelProvider extends FabricModelProvider {
+    public ModModelProvider(FabricDataOutput output) {
+        super(output);
+    }
+
+    @Override
+    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIG_COIN_CRATE);
+    }
+
+    @Override
+    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.CRUSHED_AMETHYST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COIN_FRAGMENT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BIG_GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SMALL_PILE_BIG_GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BIG_PILE_BIG_GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HUGE_PILE_BIG_GOLD_COIN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BAG_HUGE_PILE_BIG_GOLD_COIN, Models.GENERATED);
+    }
+}
